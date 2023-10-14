@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/Styles.uss?fileID=7433441132597879392&amp;guid=fb5ab0a82aee3e740a72808d42da6a1d&amp;type=3#Styles" />
+    <ui:VisualElement name="Screen" class="screen" style="flex-direction: row; justify-content: center; align-items: auto; margin-left: 0; margin-top: 0;">
+        <ui:VisualElement name="CoordinateBox" class="coordinate_box" style="background-color: rgba(26, 25, 25, 0.74);" />
+        <ui:VisualElement name="StateBox" class="state_box" style="left: auto; bottom: auto;">
+            <ui:Label text="Estado: Cámara" display-tooltip-when-elided="true" name="LblState" class="text_state" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="ConectionBox" class="connection_box">
+        <ui:TextField label="IP Address:" name="IpAddressField" password="false" value="text filter" multiline="false" is-delayed="false" readonly="false" text="127.0.0.1" max-length="-1" class="connection_textfield" style="flex-direction: row; flex-wrap: nowrap; height: 26px;" />
+        <ui:TextField picking-mode="Ignore" label="Port:" value="text filter" text="585" name="PortField" class="connection_textfield" style="align-items: flex-end;" />
+        <ui:Button text="Connect to Server" display-tooltip-when-elided="true" enable-rich-text="false" name="ButtonConnect" class="connection_button" />
+    </ui:VisualElement>
+</ui:UXML>

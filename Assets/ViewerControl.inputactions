@@ -1,0 +1,34 @@
+{
+    "name": "ViewerControl",
+    "maps": [
+        {
+            "name": "Simulation",
+            "id": "b43f3b93-922f-430b-85b7-3b6e86e79ec8",
+            "actions": [
+                {
+                    "name": "Return",
+                    "type": "Button",
+                    "id": "e0be9319-4b03-41d5-bf7b-2b3b85dd7ba0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "37f1ebfd-043f-462b-abf8-e7e274e99910",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Return",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
